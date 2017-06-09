@@ -64,6 +64,7 @@ public class TestPoyntPrintService extends Service {
 
 
     private final IPoyntReceiptPrintingService.Stub mBinder = new IPoyntReceiptPrintingService.Stub() {
+
         public void printTransaction(String jobId, Transaction transaction, long
                 tipAmount, boolean signatureCollected, IPoyntReceiptPrintingServiceListener callback)
                 throws RemoteException {
@@ -87,6 +88,12 @@ public class TestPoyntPrintService extends Service {
         public void printReceipt(String jobId, PrintedReceipt receipt,
                                  final IPoyntReceiptPrintingServiceListener callback) throws RemoteException {
             Log.d(TAG, "printReceipt " + accessoryManagerService);
+
+            // Add a custom line at the header just for testing purpose
+            List<PrintedReceiptLine> headerLines = receipt.getHeader();
+            PrintedReceiptLine line = new PrintedReceiptLine();
+            line.setText("This is an Accepta Test");
+            headerLines.add(0, line);
 
             // If you want to print to the built-in printer you will need to construct
             // a bitmap of your custom receipt. In this case I am just printing a poynt logo
