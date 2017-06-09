@@ -1,6 +1,5 @@
 package mnunez.com.poynttest;
 
-import android.app.AlertDialog;
 import android.app.Service;
 import android.content.ComponentName;
 import android.content.Context;
@@ -8,9 +7,7 @@ import android.content.Intent;
 import android.content.ServiceConnection;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.os.Handler;
 import android.os.IBinder;
-import android.os.Looper;
 import android.os.RemoteException;
 import android.util.Log;
 
@@ -21,7 +18,6 @@ import co.poynt.api.model.Transaction;
 import co.poynt.os.model.AccessoryProvider;
 import co.poynt.os.model.AccessoryProviderFilter;
 import co.poynt.os.model.AccessoryType;
-import co.poynt.os.model.Intents;
 import co.poynt.os.model.PoyntError;
 import co.poynt.os.model.PrintedReceipt;
 import co.poynt.os.model.PrintedReceiptLine;
@@ -60,7 +56,6 @@ public class TestPoyntPrintService extends Service {
             connectToPoyntPrinter();
         }
     };
-
 
 
     private final IPoyntReceiptPrintingService.Stub mBinder = new IPoyntReceiptPrintingService.Stub() {
@@ -103,7 +98,7 @@ public class TestPoyntPrintService extends Service {
                         new IPoyntPrinterServiceListener.Stub() {
                             @Override
                             public void onPrintResponse(PrinterStatus printerStatus, String s) throws RemoteException {
-                                switch (printerStatus.getCode()){
+                                switch (printerStatus.getCode()) {
                                     case PRINTER_CONNECTED:
                                         Log.d(TAG, "onPrintResponse: PRINTER_CONNECTED");
                                         break;
@@ -178,7 +173,7 @@ public class TestPoyntPrintService extends Service {
         return mBinder;
     }
 
-    private void connectToPoyntPrinter(){
+    private void connectToPoyntPrinter() {
         AccessoryProviderFilter filter = new AccessoryProviderFilter(AccessoryType.PRINTER);
         try {
             accessoryManagerService.getAccessoryProviders(filter, new IPoyntAccessoryManagerListener.Stub() {
@@ -210,6 +205,7 @@ public class TestPoyntPrintService extends Service {
                                 public void onServiceConnected(ComponentName name, IBinder service) {
                                     poyntPrinterService = IPoyntPrinterService.Stub.asInterface(service);
                                 }
+
                                 @Override
                                 public void onServiceDisconnected(ComponentName name) {
                                     Log.d(TAG, "onServiceDisconnected: poynt printer connection");

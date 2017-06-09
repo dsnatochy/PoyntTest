@@ -57,13 +57,13 @@
       <file leaf-file-name="TestPoyntPrintService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/mnunez/com/poynttest/TestPoyntPrintService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="91" column="71" selection-start-line="91" selection-start-column="71" selection-end-line="91" selection-end-column="71" />
+            <state relative-caret-position="103">
+              <caret line="71" column="51" selection-start-line="71" selection-start-column="51" selection-end-line="71" selection-end-column="51" />
               <folding>
-                <element signature="e#4240#6855#0" expanded="true" />
-                <element signature="e#6854#6855#0" expanded="true" />
-                <element signature="e#7610#7611#0" expanded="true" />
-                <element signature="e#7651#7652#0" expanded="true" />
+                <element signature="e#4120#6736#0" expanded="true" />
+                <element signature="e#6735#6736#0" expanded="true" />
+                <element signature="e#7491#7492#0" expanded="true" />
+                <element signature="e#7532#7533#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2335,103 +2335,103 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/mnunez/com/poynttest/TestPoyntPrintService.java</url>
-          <line>128</line>
+          <line>123</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/mnunez/com/poynttest/TestPoyntPrintService.java</url>
-          <line>152</line>
+          <line>147</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/mnunez/com/poynttest/TestPoyntPrintService.java</url>
-          <line>105</line>
+          <line>100</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/mnunez/com/poynttest/TestPoyntPrintService.java</url>
-          <line>89</line>
+          <line>84</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/mnunez/com/poynttest/TestPoyntPrintService.java</url>
-          <line>82</line>
+          <line>77</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/mnunez/com/poynttest/TestPoyntPrintService.java</url>
-          <line>76</line>
+          <line>71</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/mnunez/com/poynttest/TestPoyntPrintService.java</url>
-          <line>70</line>
+          <line>65</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/mnunez/com/poynttest/TestPoyntPrintService.java</url>
-          <line>50</line>
+          <line>46</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/mnunez/com/poynttest/TestPoyntPrintService.java</url>
-          <line>58</line>
+          <line>54</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/mnunez/com/poynttest/TestPoyntPrintService.java</url>
-          <line>159</line>
+          <line>154</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/mnunez/com/poynttest/TestPoyntPrintService.java</url>
-          <line>166</line>
+          <line>161</line>
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/mnunez/com/poynttest/TestPoyntPrintService.java</url>
-          <line>171</line>
+          <line>166</line>
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/mnunez/com/poynttest/TestPoyntPrintService.java</url>
-          <line>176</line>
+          <line>171</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/mnunez/com/poynttest/TestPoyntPrintService.java</url>
-          <line>191</line>
+          <line>186</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/mnunez/com/poynttest/TestPoyntPrintService.java</url>
-          <line>181</line>
+          <line>176</line>
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/mnunez/com/poynttest/TestPoyntPrintService.java</url>
-          <line>52</line>
+          <line>48</line>
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/mnunez/com/poynttest/TestPoyntPrintService.java</url>
-          <line>186</line>
+          <line>181</line>
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
@@ -2486,13 +2486,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/mnunez/com/poynttest/TestPoyntPrintService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="91" column="71" selection-start-line="91" selection-start-column="71" selection-end-line="91" selection-end-column="71" />
+        <state relative-caret-position="103">
+          <caret line="71" column="51" selection-start-line="71" selection-start-column="51" selection-end-line="71" selection-end-column="51" />
           <folding>
-            <element signature="e#4240#6855#0" expanded="true" />
-            <element signature="e#6854#6855#0" expanded="true" />
-            <element signature="e#7610#7611#0" expanded="true" />
-            <element signature="e#7651#7652#0" expanded="true" />
+            <element signature="e#4120#6736#0" expanded="true" />
+            <element signature="e#6735#6736#0" expanded="true" />
+            <element signature="e#7491#7492#0" expanded="true" />
+            <element signature="e#7532#7533#0" expanded="true" />
           </folding>
         </state>
       </provider>
