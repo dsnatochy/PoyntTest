@@ -14,6 +14,7 @@ import android.util.Log;
 import java.util.List;
 import java.util.UUID;
 
+import co.poynt.api.model.BalanceInquiry;
 import co.poynt.api.model.Transaction;
 import co.poynt.os.model.AccessoryProvider;
 import co.poynt.os.model.AccessoryProviderFilter;
@@ -22,12 +23,14 @@ import co.poynt.os.model.PoyntError;
 import co.poynt.os.model.PrintedReceipt;
 import co.poynt.os.model.PrintedReceiptLine;
 import co.poynt.os.model.PrinterStatus;
+import co.poynt.os.model.ReceiptOptions;
 import co.poynt.os.services.v1.IPoyntAccessoryManager;
 import co.poynt.os.services.v1.IPoyntAccessoryManagerListener;
 import co.poynt.os.services.v1.IPoyntPrinterService;
 import co.poynt.os.services.v1.IPoyntPrinterServiceListener;
 import co.poynt.os.services.v1.IPoyntReceiptPrintingService;
 import co.poynt.os.services.v1.IPoyntReceiptPrintingServiceListener;
+import co.poynt.os.services.v1.IPoyntReceiptSendListener;
 
 /**
  * Created by mnunez on 5/15/17.
@@ -108,14 +111,14 @@ public class TestPoyntPrintService extends Service {
                                     case PRINTER_UNAVAILABLE:
                                         Log.d(TAG, "onPrintResponse: PRINTER_UNAVAILABLE");
                                         // notify the callback function
-                                        callback.printFailed();
+                                        callback.printFailed(null);
                                         break;
                                     case PRINTER_JOB_PRINTED:
                                         Log.d(TAG, "onPrintResponse: PRINTER_JOB_PRINTED");
                                         break;
                                     case PRINTER_JOB_FAILED:
                                         Log.d(TAG, "onPrintResponse: PRINTER_JOB_FAILED");
-                                        callback.printFailed();
+                                        callback.printFailed(null);
                                         break;
                                     case PRINTER_JOB_QUEUED:
                                         Log.d(TAG, "onPrintResponse: PRINTER_JOB_QUEUED");
@@ -123,15 +126,15 @@ public class TestPoyntPrintService extends Service {
                                         break;
                                     case PRINTER_ERROR_OUT_OF_PAPER:
                                         Log.d(TAG, "onPrintResponse: PRINTER_ERROR_OUT_OF_PAPER");
-                                        callback.printFailed();
+                                        callback.printFailed(null);
                                         break;
                                     case PRINTER_ERROR_OTHER:
                                         Log.d(TAG, "onPrintResponse: PRINTER_ERROR_OTHER");
-                                        callback.printFailed();
+                                        callback.printFailed(null);
                                         break;
                                     default:
                                         Log.d(TAG, "onPrintResponse: This should not happen");
-                                        callback.printFailed();
+                                        callback.printFailed(null);
                                         break;
                                 }
 
@@ -139,7 +142,7 @@ public class TestPoyntPrintService extends Service {
                         });
             } catch (RemoteException e) {
                 e.printStackTrace();
-                callback.printFailed();
+                callback.printFailed(null);
             }
         }
 
@@ -147,6 +150,36 @@ public class TestPoyntPrintService extends Service {
                                 IPoyntReceiptPrintingServiceListener callback) throws RemoteException {
             Log.d(TAG, "printBitmap ");
             // your code
+        }
+
+        @Override
+        public void printStayReceipt(String s, String s1, IPoyntReceiptPrintingServiceListener iPoyntReceiptPrintingServiceListener) throws RemoteException {
+
+        }
+
+        @Override
+        public void printBalanceInquiry(String s, BalanceInquiry balanceInquiry, IPoyntReceiptPrintingServiceListener iPoyntReceiptPrintingServiceListener) throws RemoteException {
+
+        }
+
+        @Override
+        public void sendReceipt(String s, String s1, String s2, String s3, IPoyntReceiptSendListener iPoyntReceiptSendListener) throws RemoteException {
+
+        }
+
+        @Override
+        public void printTransactionReceiptWithOptions(String s, String s1, long l, ReceiptOptions receiptOptions, IPoyntReceiptPrintingServiceListener iPoyntReceiptPrintingServiceListener) throws RemoteException {
+
+        }
+
+        @Override
+        public void printStayReceiptWithOptions(String s, String s1, ReceiptOptions receiptOptions, IPoyntReceiptPrintingServiceListener iPoyntReceiptPrintingServiceListener) throws RemoteException {
+
+        }
+
+        @Override
+        public void printBalanceInquiryWithOptions(String s, BalanceInquiry balanceInquiry, ReceiptOptions receiptOptions, IPoyntReceiptPrintingServiceListener iPoyntReceiptPrintingServiceListener) throws RemoteException {
+
         }
     };
 
@@ -176,6 +209,7 @@ public class TestPoyntPrintService extends Service {
     private void connectToPoyntPrinter() {
         AccessoryProviderFilter filter = new AccessoryProviderFilter(AccessoryType.PRINTER);
         try {
+            //aca
             accessoryManagerService.getAccessoryProviders(filter, new IPoyntAccessoryManagerListener.Stub() {
                 @Override
                 public void onError(PoyntError poyntError) throws RemoteException {

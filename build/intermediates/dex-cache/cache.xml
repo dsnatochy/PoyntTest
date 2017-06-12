@@ -3,84 +3,21 @@
 
     <item
         is-multidex="false"
+        jar="/Users/mnunez/.gradle/caches/modules-2/files-2.1/co.poynt.api/android-api-model/1.2.98/52c9c6ae03c8d1d6b1a096d3cf80cc1b1070657a/android-api-model-1.2.98.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="52c9c6ae03c8d1d6b1a096d3cf80cc1b1070657a">
+        <dex dex="/Users/mnunez/Overactive/Mobile/Android/Projects/PoyntTestRepo/PoyntTest/app/build/intermediates/pre-dexed/debug/android-api-model-1.2.98_088b172c1b9981a38c51840318ab837a30c34e18.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/mnunez/Overactive/Mobile/Android/Projects/PoyntTestRepo/PoyntTest/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
         <dex dex="/Users/mnunez/Overactive/Mobile/Android/Projects/PoyntTestRepo/PoyntTest/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.0_8e6b1a65b27a4de2b6c8c16179c39e758987a81e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mnunez/Overactive/Mobile/Android/Projects/PoyntTestRepo/PoyntTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/mnunez/Overactive/Mobile/Android/Projects/PoyntTestRepo/PoyntTest/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.0_24d1d94969b395a46a584c4044bfd7aed482e64d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mnunez/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.4/695b63d702f505b9b916e02272e3b6381bade7f/gson-2.4.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
-        <dex dex="/Users/mnunez/Overactive/Mobile/Android/Projects/PoyntTestRepo/PoyntTest/app/build/intermediates/pre-dexed/debug/gson-2.4_fa360ffc54a88100d854c1ff4eca2a56eb5b919b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mnunez/Overactive/Mobile/Android/Projects/PoyntTestRepo/PoyntTest/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
-        <dex dex="/Users/mnunez/Overactive/Mobile/Android/Projects/PoyntTestRepo/PoyntTest/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.0_8e62764c7b40628918e4d8648b278eedce6d085d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mnunez/Overactive/Mobile/Android/Projects/PoyntTestRepo/PoyntTest/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
-        <dex dex="/Users/mnunez/Overactive/Mobile/Android/Projects/PoyntTestRepo/PoyntTest/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.0_97a92dff434e016e6df6cb1c8cb82ce44a937a65.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mnunez/.gradle/caches/modules-2/files-2.1/co.poynt.api/android-api-model/1.2.44/fb68f187cdb5478ddd1226ea292f351b1d183c6b/android-api-model-1.2.44.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="fb68f187cdb5478ddd1226ea292f351b1d183c6b">
-        <dex dex="/Users/mnunez/Overactive/Mobile/Android/Projects/PoyntTestRepo/PoyntTest/app/build/intermediates/pre-dexed/debug/android-api-model-1.2.44_975f585f13d10b9a0ac81c1050649dbe7851017e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mnunez/Overactive/Mobile/Android/Projects/PoyntTestRepo/PoyntTest/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
-        <dex dex="/Users/mnunez/Overactive/Mobile/Android/Projects/PoyntTestRepo/PoyntTest/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.0_8b900c48dfa088c79df519f950e773ab9ca13925.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mnunez/Overactive/Mobile/Android/Projects/PoyntTestRepo/PoyntTest/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
-        <dex dex="/Users/mnunez/Overactive/Mobile/Android/Projects/PoyntTestRepo/PoyntTest/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.0_06afbde61c0255f74c06e114b96e7e4e8c384e19.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/mnunez/Overactive/Mobile/Android/Projects/PoyntTestRepo/PoyntTest/app/build/intermediates/exploded-aar/co.poynt.android.sdk/poynt-sdk/1.2.11/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0114f6ba29f89efd8912b6cda8eb4662eed28082">
-        <dex dex="/Users/mnunez/Overactive/Mobile/Android/Projects/PoyntTestRepo/PoyntTest/app/build/intermediates/pre-dexed/debug/co.poynt.android.sdk-poynt-sdk-1.2.11_9e8ed572526faf6235bf54a6a8ebcbce9cded036.jar" />
     </item>
     <item
         is-multidex="false"
@@ -93,12 +30,75 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/mnunez/Overactive/Mobile/Android/Projects/PoyntTestRepo/PoyntTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/mnunez/Overactive/Mobile/Android/Projects/PoyntTestRepo/PoyntTest/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.0_24d1d94969b395a46a584c4044bfd7aed482e64d.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/mnunez/Overactive/Mobile/Android/Projects/PoyntTestRepo/PoyntTest/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
         <dex dex="/Users/mnunez/Overactive/Mobile/Android/Projects/PoyntTestRepo/PoyntTest/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.0_5eb266b30f604bf4ed3a5df2eb9da1edb6d2526a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mnunez/Overactive/Mobile/Android/Projects/PoyntTestRepo/PoyntTest/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="/Users/mnunez/Overactive/Mobile/Android/Projects/PoyntTestRepo/PoyntTest/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.0_8e62764c7b40628918e4d8648b278eedce6d085d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mnunez/Overactive/Mobile/Android/Projects/PoyntTestRepo/PoyntTest/app/build/intermediates/exploded-aar/co.poynt.android.sdk/poynt-sdk/1.2.26-SNAPSHOT/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8a899bb3c43ec9ccea6a2c6ecb829efa47737612">
+        <dex dex="/Users/mnunez/Overactive/Mobile/Android/Projects/PoyntTestRepo/PoyntTest/app/build/intermediates/pre-dexed/debug/co.poynt.android.sdk-poynt-sdk-1.2.26-SNAPSHOT_943c8150ac1ce31fc69d08f604e20a6f9d4c63be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mnunez/Overactive/Mobile/Android/Projects/PoyntTestRepo/PoyntTest/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="/Users/mnunez/Overactive/Mobile/Android/Projects/PoyntTestRepo/PoyntTest/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.0_97a92dff434e016e6df6cb1c8cb82ce44a937a65.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mnunez/Overactive/Mobile/Android/Projects/PoyntTestRepo/PoyntTest/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="/Users/mnunez/Overactive/Mobile/Android/Projects/PoyntTestRepo/PoyntTest/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.0_8b900c48dfa088c79df519f950e773ab9ca13925.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mnunez/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="/Users/mnunez/Overactive/Mobile/Android/Projects/PoyntTestRepo/PoyntTest/app/build/intermediates/pre-dexed/debug/gson-2.8.0_2231bc75951acb1aa9cb5770ebdcad83c0c1c321.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mnunez/Overactive/Mobile/Android/Projects/PoyntTestRepo/PoyntTest/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="/Users/mnunez/Overactive/Mobile/Android/Projects/PoyntTestRepo/PoyntTest/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.0_06afbde61c0255f74c06e114b96e7e4e8c384e19.jar" />
     </item>
     <item
         is-multidex="false"

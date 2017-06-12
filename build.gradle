@@ -15,8 +15,9 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
+        maven { url 'https://nexus.poynt.com/content/repositories/releases' }
         maven {
-            url 'https://nexus.poynt.com/content/repositories/releases'
+            url 'https://nexus.poynt.com/content/repositories/snapshots'
         }
         mavenCentral()
     }
