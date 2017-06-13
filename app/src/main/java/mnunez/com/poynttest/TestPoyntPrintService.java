@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.content.ServiceConnection;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.os.Bundle;
 import android.os.IBinder;
 import android.os.RemoteException;
 import android.util.Log;
@@ -23,7 +24,7 @@ import co.poynt.os.model.PoyntError;
 import co.poynt.os.model.PrintedReceipt;
 import co.poynt.os.model.PrintedReceiptLine;
 import co.poynt.os.model.PrinterStatus;
-import co.poynt.os.model.ReceiptOptions;
+//import co.poynt.os.model.ReceiptOptions;
 import co.poynt.os.services.v1.IPoyntAccessoryManager;
 import co.poynt.os.services.v1.IPoyntAccessoryManagerListener;
 import co.poynt.os.services.v1.IPoyntPrinterService;
@@ -165,19 +166,34 @@ public class TestPoyntPrintService extends Service {
         }
 
         @Override
-        public void printTransactionReceiptWithOptions(String s, String s1, long l, ReceiptOptions receiptOptions, IPoyntReceiptPrintingServiceListener iPoyntReceiptPrintingServiceListener) throws RemoteException {
-            Log.d(TAG, "printTransactionReceiptWithOptions ");
+        public void printTransactionReceiptWithOptions(String s, String s1, long l, Bundle bundle, IPoyntReceiptPrintingServiceListener iPoyntReceiptPrintingServiceListener) throws RemoteException {
+
         }
 
         @Override
-        public void printStayReceiptWithOptions(String s, String s1, ReceiptOptions receiptOptions, IPoyntReceiptPrintingServiceListener iPoyntReceiptPrintingServiceListener) throws RemoteException {
-            Log.d(TAG, "printStayReceiptWithOptions ");
+        public void printStayReceiptWithOptions(String s, String s1, Bundle bundle, IPoyntReceiptPrintingServiceListener iPoyntReceiptPrintingServiceListener) throws RemoteException {
+
         }
 
         @Override
-        public void printBalanceInquiryWithOptions(String s, BalanceInquiry balanceInquiry, ReceiptOptions receiptOptions, IPoyntReceiptPrintingServiceListener iPoyntReceiptPrintingServiceListener) throws RemoteException {
-            Log.d(TAG, "printBalanceInquiryWithOptions ");
+        public void printBalanceInquiryWithOptions(String s, BalanceInquiry balanceInquiry, Bundle bundle, IPoyntReceiptPrintingServiceListener iPoyntReceiptPrintingServiceListener) throws RemoteException {
+
         }
+//
+//        @Override
+//        public void printTransactionReceiptWithOptions(String s, String s1, long l, ReceiptOptions receiptOptions, IPoyntReceiptPrintingServiceListener iPoyntReceiptPrintingServiceListener) throws RemoteException {
+//            Log.d(TAG, "printTransactionReceiptWithOptions ");
+//        }
+//
+//        @Override
+//        public void printStayReceiptWithOptions(String s, String s1, ReceiptOptions receiptOptions, IPoyntReceiptPrintingServiceListener iPoyntReceiptPrintingServiceListener) throws RemoteException {
+//            Log.d(TAG, "printStayReceiptWithOptions ");
+//        }
+//
+//        @Override
+//        public void printBalanceInquiryWithOptions(String s, BalanceInquiry balanceInquiry, ReceiptOptions receiptOptions, IPoyntReceiptPrintingServiceListener iPoyntReceiptPrintingServiceListener) throws RemoteException {
+//            Log.d(TAG, "printBalanceInquiryWithOptions ");
+//        }
     };
 
     @Override
