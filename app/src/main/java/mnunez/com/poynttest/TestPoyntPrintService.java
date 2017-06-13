@@ -83,8 +83,7 @@ public class TestPoyntPrintService extends Service {
         }
 
         // This method will be called from the Payment Fragment
-        public void printReceipt(String jobId, PrintedReceipt receipt,
-                                 final IPoyntReceiptPrintingServiceListener callback) throws RemoteException {
+        public void printReceipt(String jobId, PrintedReceipt receipt, final IPoyntReceiptPrintingServiceListener callback) throws RemoteException {
             Log.d(TAG, "printReceipt " + accessoryManagerService);
 
             // Add a custom line at the header just for testing purpose
@@ -146,40 +145,38 @@ public class TestPoyntPrintService extends Service {
             }
         }
 
-        public void printBitmap(String jobId, Bitmap bitmap,
-                                IPoyntReceiptPrintingServiceListener callback) throws RemoteException {
+        public void printBitmap(String jobId, Bitmap bitmap, IPoyntReceiptPrintingServiceListener callback) throws RemoteException {
             Log.d(TAG, "printBitmap ");
-            // your code
         }
 
         @Override
         public void printStayReceipt(String s, String s1, IPoyntReceiptPrintingServiceListener iPoyntReceiptPrintingServiceListener) throws RemoteException {
-
+            Log.d(TAG, "printStayReceipt ");
         }
 
         @Override
         public void printBalanceInquiry(String s, BalanceInquiry balanceInquiry, IPoyntReceiptPrintingServiceListener iPoyntReceiptPrintingServiceListener) throws RemoteException {
-
+            Log.d(TAG, "printBalanceInquiry ");
         }
 
         @Override
         public void sendReceipt(String s, String s1, String s2, String s3, IPoyntReceiptSendListener iPoyntReceiptSendListener) throws RemoteException {
-
+            Log.d(TAG, "sendReceipt ");
         }
 
         @Override
         public void printTransactionReceiptWithOptions(String s, String s1, long l, ReceiptOptions receiptOptions, IPoyntReceiptPrintingServiceListener iPoyntReceiptPrintingServiceListener) throws RemoteException {
-
+            Log.d(TAG, "printTransactionReceiptWithOptions ");
         }
 
         @Override
         public void printStayReceiptWithOptions(String s, String s1, ReceiptOptions receiptOptions, IPoyntReceiptPrintingServiceListener iPoyntReceiptPrintingServiceListener) throws RemoteException {
-
+            Log.d(TAG, "printStayReceiptWithOptions ");
         }
 
         @Override
         public void printBalanceInquiryWithOptions(String s, BalanceInquiry balanceInquiry, ReceiptOptions receiptOptions, IPoyntReceiptPrintingServiceListener iPoyntReceiptPrintingServiceListener) throws RemoteException {
-
+            Log.d(TAG, "printBalanceInquiryWithOptions ");
         }
     };
 
